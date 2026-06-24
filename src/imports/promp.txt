@@ -1,0 +1,437 @@
+Hãy thiết kế full bộ giao diện UI/UX cho một dự án **E-commerce bán bánh ngọt và cafe**.
+
+Tên thương hiệu mẫu: **Sweet Bean Coffee & Cake**
+
+YÊU CẦU QUAN TRỌNG NHẤT:
+- Nếu có ảnh template/reference được đính kèm, hãy dùng ảnh đó làm **layout reference chính**.
+- Tất cả các trang phải được thiết kế theo **kiểu bố cục giống template tham chiếu**: cấu trúc header, banner, vùng nội dung, card sản phẩm, sidebar/filter, footer, spacing, cách chia section và cách trình bày tổng thể phải bám sát reference.
+- Không được tạo layout hoàn toàn mới.
+- Không làm theo kiểu landing page đơn giản.
+- Hãy giữ tinh thần của template reference: giao diện e-commerce hiện đại, rõ ràng, nhiều section, bố cục trắng sáng, card sản phẩm gọn gàng, footer tối màu, cấu trúc trang đầy đủ.
+- Chỉ thay đổi nội dung, hình ảnh, màu sắc, danh mục, sản phẩm để phù hợp với **website bán bánh ngọt và cafe**.
+
+---
+
+## 1. PHONG CÁCH THIẾT KẾ
+
+Thiết kế theo phong cách:
+- hiện đại
+- sạch
+- chuyên nghiệp
+- dễ dùng
+- giống website e-commerce thật
+- thiên về cảm giác ấm áp, ngọt ngào, tinh tế
+
+Màu sắc chủ đạo:
+- nâu cafe
+- be / kem sữa
+- caramel
+- trắng
+- hồng pastel nhẹ
+
+Lưu ý:
+- vẫn giữ tinh thần layout reference
+- có thể thay màu nhấn của template thành màu phù hợp bánh/cafe
+- hình ảnh dùng placeholder đẹp về bánh ngọt, cafe, đồ uống, combo
+- card bo góc nhẹ, shadow nhẹ
+- button rõ ràng
+- typography dễ đọc
+- khoảng trắng hợp lý
+
+Tiền tệ hiển thị: VNĐ  
+Ví dụ:
+- 45.000đ
+- 55.000đ
+- 89.000đ
+- 350.000đ
+- 399.000đ
+
+---
+
+## 2. YÊU CẦU CHUNG CHO TOÀN BỘ WEBSITE
+
+Thiết kế full page cho cả:
+- giao diện khách hàng
+- giao diện admin
+
+Tất cả các trang phải:
+- dùng chung design system
+- có header/footer hoặc layout quản trị nhất quán
+- có trạng thái hover, active, selected, disabled ở mức cơ bản
+- có empty state, loading state, error state cơ bản nếu phù hợp
+- có các component tái sử dụng rõ ràng
+- nếu là Figma thì tạo theo frame riêng từng trang, đặt tên rõ ràng
+- nếu có thể, tạo thêm mobile version cho các trang khách hàng chính
+
+---
+
+## 3. DANH MỤC SẢN PHẨM & MOCK DATA
+
+Dùng nội dung mẫu sau để hiển thị trên các trang:
+
+### Danh mục:
+- Bánh sinh nhật
+- Bánh mousse
+- Bánh tart
+- Bánh quy
+- Cafe
+- Trà
+- Đồ uống khác
+- Combo
+
+### Sản phẩm:
+- Bánh Tiramisu — 45.000đ
+- Bánh Red Velvet — 55.000đ
+- Bánh sinh nhật socola — 350.000đ
+- Bánh mousse xoài — 60.000đ
+- Bánh tart trứng — 25.000đ
+- Bánh quy bơ — 40.000đ
+- Cafe Latte — 55.000đ
+- Cappuccino — 50.000đ
+- Americano — 45.000đ
+- Matcha Latte — 59.000đ
+- Trà đào cam sả — 49.000đ
+- Cold Brew — 60.000đ
+- Combo Tiramisu + Latte — 89.000đ
+- Combo sinh nhật mini — 399.000đ
+
+### Voucher:
+- CAKE10
+- COFFEE20
+- COMBO15
+
+### Trạng thái đơn hàng:
+- Pending
+- Confirmed
+- Preparing
+- Shipping
+- Completed
+- Cancelled
+- Returned
+
+### Option sản phẩm:
+- Size S
+- Size M
+- Size L
+- Ít đường
+- Thêm shot cafe
+- Thêm kem
+
+---
+
+## 4. THIẾT KẾ CÁC TRANG GIAO DIỆN KHÁCH HÀNG
+
+Tạo đầy đủ các trang sau, tất cả phải theo bố cục/layout reference:
+
+### 4.1 Trang chủ
+Thiết kế full trang chủ e-commerce theo layout giống template reference.
+
+Bao gồm:
+- Header: logo, menu, search bar, wishlist, cart, account
+- Hero banner lớn
+- Banner khuyến mãi
+- Flash sale section
+- Section danh mục nổi bật
+- Section sản phẩm bán chạy
+- Section sản phẩm mới
+- Section combo ưu đãi
+- Section lý do chọn cửa hàng
+- Footer tối màu giống tinh thần template
+
+Nội dung thương hiệu:
+- “Fresh Cakes & Coffee Delivered To You”
+- “Bánh tươi mỗi ngày, cafe thơm ngon, giao tận nơi”
+- CTA: “Đặt bánh ngay”, “Khám phá menu”
+
+### 4.2 Trang danh sách bánh ngọt
+Bố cục listing page giống template reference:
+- breadcrumb
+- tiêu đề trang
+- filter sidebar hoặc filter block
+- sort dropdown
+- grid card sản phẩm
+- phân trang
+- footer
+
+Bộ lọc:
+- loại bánh
+- giá
+- đánh giá
+- còn hàng
+
+### 4.3 Trang danh sách cafe/đồ uống
+Layout giữ giống template reference cho trang listing:
+- banner danh mục
+- bộ lọc loại đồ uống
+- filter giá
+- product grid
+- card có thể hiện lựa chọn size S/M/L
+- footer
+
+### 4.4 Trang combo bánh và cafe
+Thiết kế trang combo:
+- hero/banner riêng cho combo
+- combo grid
+- card combo
+- section gợi ý combo theo dịp
+- footer
+
+### 4.5 Trang chi tiết sản phẩm
+Thiết kế full product detail page theo bố cục reference:
+- gallery ảnh sản phẩm
+- tên sản phẩm
+- giá
+- rating
+- mô tả
+- thành phần
+- tình trạng còn hàng
+- chọn số lượng
+- chọn size nếu là đồ uống
+- nhập lời chúc trên bánh nếu là bánh sinh nhật
+- chọn thời gian nhận hàng
+- nút thêm giỏ hàng
+- nút mua ngay
+- section tab mô tả/thành phần/bảo quản/đánh giá
+- sản phẩm liên quan
+- footer
+
+### 4.6 Trang giỏ hàng
+Thiết kế cart page giống layout template:
+- bảng hoặc list sản phẩm
+- ảnh, tên, giá, số lượng, subtotal
+- mã giảm giá
+- order summary
+- nút tiếp tục mua
+- nút thanh toán
+- footer
+
+### 4.7 Trang thanh toán
+Thiết kế checkout page:
+- form thông tin người nhận
+- địa chỉ
+- thời gian nhận
+- ghi chú đơn hàng
+- chọn phương thức thanh toán: COD, Momo, VNPay, ZaloPay
+- order summary bên phải
+- nút xác nhận đặt hàng
+- success state hoặc success modal
+- footer
+
+### 4.8 Trang theo dõi đơn hàng
+Thiết kế tracking page:
+- ô nhập mã đơn hàng
+- thông tin đơn hàng
+- timeline trạng thái đơn
+- danh sách sản phẩm trong đơn
+- footer
+
+### 4.9 Trang lịch sử mua hàng
+Thiết kế order history page:
+- sidebar tài khoản hoặc tab tài khoản
+- danh sách đơn hàng
+- lọc theo trạng thái
+- mỗi đơn có nút xem chi tiết và đánh giá
+- footer
+
+### 4.10 Trang thông tin cá nhân
+Thiết kế profile page:
+- sidebar tài khoản
+- avatar
+- thông tin cá nhân
+- form chỉnh sửa
+- đổi mật khẩu
+- địa chỉ mặc định
+- footer
+
+### 4.11 Trang đăng nhập / đăng ký
+Thiết kế 2 trang hoặc 1 trang có tab:
+- login
+- register
+
+Layout phải giống tinh thần template:
+- chia cột trái/phải hoặc bố cục tương tự reference
+- một bên là ảnh
+- một bên là form
+- style e-commerce chuyên nghiệp
+- footer
+
+### 4.12 Trang đánh giá sản phẩm
+Thiết kế review page:
+- hiển thị sản phẩm đã mua
+- rating stars
+- bình luận
+- upload ảnh nếu có
+- nút gửi đánh giá
+- danh sách đánh giá đã có
+- footer
+
+---
+
+## 5. THIẾT KẾ CÁC TRANG GIAO DIỆN ADMIN
+
+Tạo bộ giao diện admin đầy đủ, hiện đại, chuyên nghiệp, vẫn đồng bộ thẩm mỹ với customer nhưng dùng layout quản trị rõ ràng.
+
+### 5.1 Dashboard
+- sidebar trái
+- topbar
+- statistic cards:
+  - tổng doanh thu
+  - tổng đơn hàng
+  - tổng khách hàng
+  - tổng sản phẩm
+- biểu đồ doanh thu
+- biểu đồ trạng thái đơn hàng
+- đơn mới nhất
+- sản phẩm bán chạy
+- cảnh báo sắp hết hàng
+
+### 5.2 Quản lý sản phẩm bánh/cafe
+- bảng sản phẩm
+- cột: ảnh, tên, danh mục, loại, giá, tồn kho, trạng thái, hành động
+- search
+- filter
+- nút thêm sản phẩm
+- modal hoặc form thêm/sửa sản phẩm
+
+### 5.3 Quản lý danh mục
+- bảng danh mục
+- thêm / sửa / xóa
+- trạng thái
+- số lượng sản phẩm
+
+### 5.4 Quản lý option sản phẩm
+- bảng option sản phẩm
+- tên sản phẩm
+- tên option
+- giá cộng thêm
+- trạng thái
+- form thêm/sửa option
+
+### 5.5 Quản lý đơn hàng
+- bảng đơn hàng
+- filter theo trạng thái, thanh toán, ngày
+- xem chi tiết đơn hàng
+- cập nhật trạng thái đơn
+
+### 5.6 Quản lý người dùng
+- bảng user
+- tìm kiếm
+- khóa/mở khóa tài khoản
+- xem lịch sử mua hàng
+
+### 5.7 Quản lý đánh giá
+- bảng review
+- lọc theo số sao
+- ẩn/xóa review vi phạm
+
+### 5.8 Quản lý voucher
+- bảng voucher
+- thêm/sửa/vô hiệu hóa voucher
+- form voucher đầy đủ
+
+### 5.9 Quản lý banner
+- bảng banner
+- thêm/sửa/xóa
+- bật/tắt banner
+
+### 5.10 Thống kê doanh thu
+- bộ lọc theo thời gian
+- statistic cards
+- biểu đồ doanh thu
+- bảng sản phẩm bán chạy
+- bảng khách hàng mua nhiều
+- biểu đồ tỷ lệ danh mục bán chạy
+
+---
+
+## 6. DESIGN SYSTEM / COMPONENTS CẦN TẠO
+
+Tạo các component tái sử dụng:
+
+### Customer components
+- Header
+- Footer
+- Hero Banner
+- Search bar
+- Category menu
+- Product card
+- Combo card
+- Category card
+- Filter panel
+- Quantity selector
+- Rating stars
+- Status badge
+- Cart item
+- Order summary
+- Review form
+- Review list
+- Login form
+- Register form
+- Toast
+- Modal
+
+### Admin components
+- Admin sidebar
+- Admin topbar
+- Statistic card
+- Table
+- Filter bar
+- Product form
+- Category form
+- Option form
+- Voucher form
+- Banner form
+- Order detail modal
+- Revenue chart
+- Status badge
+
+---
+
+## 7. YÊU CẦU FRAME / OUTPUT
+
+Nếu là Figma:
+- tạo frame riêng cho từng trang
+- đặt tên rõ ràng:
+  - Customer - Home
+  - Customer - Cake Listing
+  - Customer - Drink Listing
+  - Customer - Combo
+  - Customer - Product Detail
+  - Customer - Cart
+  - Customer - Checkout
+  - Customer - Order Tracking
+  - Customer - Order History
+  - Customer - Profile
+  - Customer - Login
+  - Customer - Register
+  - Customer - Review
+  - Admin - Dashboard
+  - Admin - Products
+  - Admin - Categories
+  - Admin - Options
+  - Admin - Orders
+  - Admin - Users
+  - Admin - Reviews
+  - Admin - Vouchers
+  - Admin - Banners
+  - Admin - Revenue
+
+Nếu có thể:
+- tạo desktop version cho tất cả
+- tạo mobile version cho các trang khách hàng quan trọng:
+  - Home
+  - Cake Listing
+  - Product Detail
+  - Cart
+  - Checkout
+
+---
+
+## 8. LƯU Ý CUỐI CÙNG
+
+Lưu ý cực kỳ quan trọng:
+- Tất cả các trang phải được tạo theo kiểu **layout reference giống template tôi gửi**.
+- Giữ bố cục tổng thể, cấu trúc section, phong cách trình bày, vị trí tương đối của các thành phần giống template reference.
+- Chỉ thay nội dung sang website bán bánh ngọt và cafe.
+- Không thiết kế lại theo phong cách khác hoàn toàn.
+- Kết quả cuối cùng phải trông như một bộ UI e-commerce hoàn chỉnh, đồng nhất, chuyên nghiệp, và bám sát template tham chiếu.
